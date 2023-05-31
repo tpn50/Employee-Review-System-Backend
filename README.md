@@ -35,16 +35,16 @@ npm install
 ```
 npm start
 ```
-The server should be running on http://localhost:<Your Preferred Port>.
+The server should be running on ```http://localhost:<Your Preferred Port>.```
 
 **API Endpoints:**
-POST /auth/signup: Register a new user
-POST /auth/signin: Login a user
-GET /admin/allusers: Get all users (Admin only)
-POST /:user_id/addusertoreview: Assign a user to review another (Admin only)
-DELETE /:userid: Delete a user (Admin only)
-GET /employee/userstoreview: Get users to review for the logged-in user
-POST /:user_id/review: Post a review for a user
+- POST /auth/signup: Register a new user
+- POST /auth/signin: Login a user
+- GET /admin/allusers: Get all users (Admin only)
+- POST /:user_id/addusertoreview: Assign a user to review another (Admin only)
+- DELETE /:userid: Delete a user (Admin only)
+- GET /employee/userstoreview: Get users to review for the logged-in user
+- POST /:user_id/review: Post a review for a user
   
 **Technologies Used:**
 - Node.js
