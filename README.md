@@ -47,21 +47,20 @@ GET /employee/userstoreview: Get users to review for the logged-in user
 POST /:user_id/review: Post a review for a user
   
 **Technologies Used:**
-Node.js
-Express.js
-MongoDB
-Mongoose
-bcrypt
-jsonwebtoken
-cookie-parser
-dotenv
-Copy code
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- bcrypt
+- jsonwebtoken
+- cookie-parser
+- dotenv
 
 
 **Built With**
-Node.js
-Express.js
-MongoDB
-JSON Web Tokens
+- Node.js
+- Express.js
+- MongoDB
+- JSON Web Tokens
 
 
